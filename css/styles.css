@@ -21,3 +21,12 @@ body::before{
 }
 .orange{background-color: #db6237;}
 .inner{margin-left: 15%;}
+h1.title {
+    margin: 0;
+    font-size: 13vw;
+    letter-spacing: .25rem;
+    border-bottom: 5px solid #2d1e19;
+    border-top: 5px solid #2d1e19;
+    padding: 1rem 0;
+    color: #fff;
+}
