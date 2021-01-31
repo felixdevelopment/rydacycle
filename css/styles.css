@@ -20,7 +20,7 @@ body::before{
 
 }
 .orange{background-color: #db6237;}
-.inner{margin-left: 15%;}
+.inner{position: relative;z-index: 1;}
 h1.title {
     margin: 0;
     font-size: 13vw;
@@ -29,4 +29,44 @@ h1.title {
     border-top: 5px solid #2d1e19;
     padding: 1rem 0;
     color: #fff;
+    padding: 2rem 2.5rem;
+    position: relative;
+}
+
+
+.body{position:relative;overflow:hidden;}
+.main,.middle-tri{position:relative;padding-left:200px}
+.title:before, .title:after{
+  content:'';
+  position:absolute;
+  border-left:5px solid black;
+  border-bottom:5px solid black;
+  border-top:5px solid black;
+  top:0;
+  transform: skew(20deg, 0);
+   left: 0;
+  right:0;
+  bottom:0;
+  background-color:orange;
+  z-index:-1;
+   transform-origin: top left;
+}
+.title:after{
+  transform: skew(25deg, 0);
+  z-index:-2;
+  left:2.25rem;
+  transform-origin: bottom right;
+  background-color:black;
+
+}
+.middle-tri, .top-tri{color:tan;}
+.middle-tri::before{left:-4.5rem;bottom:-5px;background-color:tan;}
+.top-tri::before{left:-9rem;bottom:-5px;background-color:tan;}
+.middle-tri::after {
+    left: -2.25rem;
+    bottom: -5px;
+}
+.top-tri::after {
+    left: -6.75rem;
+    bottom: -5px;
 }
