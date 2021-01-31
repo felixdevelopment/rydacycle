@@ -11,7 +11,7 @@ body{background: rgb(216,192,166);
 body::before{
     content: '';
     display: block;
-    width: 15%;
+    width: 25%;
     background-color:#db6237;
     position: absolute;
     top: 0;
@@ -23,7 +23,7 @@ body::before{
 .inner{position: relative;z-index: 1;}
 h1.title {
     margin: 0;
-    font-size: 13vw;
+    font-size: 10vw;
     letter-spacing: .25rem;
     border-bottom: 5px solid #2d1e19;
     border-top: 5px solid #2d1e19;
@@ -35,7 +35,7 @@ h1.title {
 
 
 .body{position:relative;overflow:hidden;}
-.main,.middle-tri{position:relative;padding-left:200px}
+.main,.middle-tri{position:relative;padding-left:25%}
 .title:before, .title:after{
   content:'';
   position:absolute;
