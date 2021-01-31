@@ -7,4 +7,10 @@ body{background: rgb(216,192,166);
     height: 100vh;
     margin:0;
 }
+body::before{
+    content: '';
+    width:10%;
+    height: 100%;
+    background-color:#db6237;
+}
 .orange{background-color: #db6237;}
