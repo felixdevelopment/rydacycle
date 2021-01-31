@@ -6,12 +6,17 @@ body{background: rgb(216,192,166);
     width: 100vw;
     height: 100vh;
     margin:0;
+    position: relative;
 }
 body::before{
     content: '';
     display: block;
-    width:15%;
-    height: 100%;
+    width: 15%;
     background-color:#db6237;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
 }
 .orange{background-color: #db6237;}
