@@ -39,11 +39,11 @@ h1.title {
   position:absolute;
   border-left:5px solid black;
   border-top:5px solid black;
-  top:0;
+  top:-5px;
   transform: skew(20deg, 0);
   left: 0;
   right:0;
-  bottom:0;
+  bottom:-5px;
   background-color:#db6237;
   z-index:-1;
    transform-origin: bottom left;
@@ -64,7 +64,7 @@ h1.title {
     left: -.25rem;
 }
 .middle-tri, .top-tri{color:transparent!important;}
-.middle-tri::before, .top-tri::before{background: rgb(216,192,166);
+.middle-tri::before, .top-tri::before{bottom:0;background: rgb(216,192,166);
     background: -moz-linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     background: -webkit-linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     background: linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
