@@ -23,8 +23,7 @@ body::before{
 .inner{position: relative;z-index: 1;}
 h1.title {
     margin: 0;
-    font-size: 10vw;
-    letter-spacing: .25rem;
+    font-size: 3rem;
     padding: 1rem 0;
     color: #fff;
     padding: 2rem 2.5rem;
@@ -47,14 +46,13 @@ h1.title {
    left: 0;
   right:0;
   bottom:0;
-  background-color:db6237;
+  background-color:#db6237;
   z-index:-1;
    transform-origin: bottom left;
 }
 .title:after{
   transform: skew(25deg, 0);
-  z-index:-2;
-  left:2.25rem; 
+  z-index:-2; 
   transform-origin: bottom right;
   background: rgb(0,0,0);
   background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 35%);
@@ -64,21 +62,21 @@ h1.title {
 
 }
 .middle-tri, .top-tri{color:transparent!important;}
-.middle-tri::before{left:-4.5rem;bottom:-5px;background: rgb(216,192,166);
+.middle-tri::before{left:-6rem;bottom:-5px;background: rgb(216,192,166);
     background: -moz-linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     background: -webkit-linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     background: linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8c0a6",endColorstr="#cea482",GradientType=1);}
-.top-tri::before{left:-9rem;bottom:-5px;background: rgb(216,192,166);
+.top-tri::before{left:-12rem;bottom:-5px;background: rgb(216,192,166);
     background: -moz-linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     background: -webkit-linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     background: linear-gradient(45deg, rgba(216,192,166,1) 40%, rgba(206,164,130,0.038252801120448154) 69%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8c0a6",endColorstr="#cea482",GradientType=1);}
 .middle-tri::after {
-    left: -2.25rem;
+    left: -6.125rem;
     bottom: -5px;
 }
 .top-tri::after {
-    left: -6.75rem;
+    left: -12.125rem;;
     bottom: -5px;
 }
