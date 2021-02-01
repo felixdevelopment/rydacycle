@@ -4,7 +4,7 @@ body::before{content:'';display:block;width:25%;background-color:#db6237;positio
 .inner{position:relative;z-index:1}
 h1.title{margin:0;font-size:3rem;padding:1rem 0;color:#fff;padding:2rem 2.5rem;position:relative;border-bottom:5px solid #000;text-transform:uppercase}
 header{position:relative;overflow:hidden}
-.main,.middle-tri{position:relative;padding-left:25%}
+.title-cont,.middle-tri{position:relative;padding-left:25%}
 .title:before,.title:after{content:'';position:absolute;border-left:5px solid #000;border-top:5px solid #000;top:-5px;transform:skew(20deg,0);left:0;right:0;bottom:-5px;background-color:#db6237;z-index:-1;transform-origin:bottom left}
 .title:after{border:none;transform:skew(25deg,0);z-index:-2;transform-origin:bottom right;background:#000;background:-moz-linear-gradient(45deg,rgba(0,0,0,1) 15%,rgba(255,255,255,0) 35%);background:-webkit-linear-gradient(45deg,rgba(0,0,0,1) 15%,rgba(255,255,255,0) 35%);background:linear-gradient(45deg,rgba(0,0,0,1) 15%,rgba(255,255,255,0) 35%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1)}
 .title.orange::before{left:-.25rem}
