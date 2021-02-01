@@ -9,8 +9,9 @@ header{position:relative;overflow:hidden}
 .title:after{border:none;transform:skew(25deg,0);z-index:-2;transform-origin:bottom right;background:#000;background:-moz-linear-gradient(45deg,rgba(0,0,0,1) 15%,rgba(255,255,255,0) 35%);background:-webkit-linear-gradient(45deg,rgba(0,0,0,1) 15%,rgba(255,255,255,0) 35%);background:linear-gradient(45deg,rgba(0,0,0,1) 15%,rgba(255,255,255,0) 35%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1)}
 .title.orange::before{left:-.25rem}
 .middle-tri,.top-tri{color:transparent!important}
+.top-tri{border-top:5px solid #000}
 .middle-tri::before,.top-tri::before{bottom:0;background:#d8c0a6;background:-moz-linear-gradient(45deg,rgba(216,192,166,1) 40%,rgba(206,164,130,0.038252801120448154) 69%);background:-webkit-linear-gradient(45deg,rgba(216,192,166,1) 40%,rgba(206,164,130,0.038252801120448154) 69%);background:linear-gradient(45deg,rgba(216,192,166,1) 40%,rgba(206,164,130,0.038252801120448154) 69%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8c0a6",endColorstr="#cea482",GradientType=1)}
 .middle-tri::before{left:-6rem}
-.top-tri::before{left:-12rem;border-top:5px solid #000}
+.top-tri::before{left:-12rem;}
 .middle-tri::after{left:-6.125rem}
 .top-tri::after{left:-12.125rem}
