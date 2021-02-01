@@ -74,9 +74,7 @@ h1.title {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8c0a6",endColorstr="#cea482",GradientType=1);}
 .middle-tri::after {
     left: -2.25rem;
-    bottom: -5px;
 }
 .top-tri::after {
     left: -6.75rem;
-    bottom: -5px;
 }
