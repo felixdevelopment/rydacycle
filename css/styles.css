@@ -49,6 +49,16 @@ header{position:relative;overflow:hidden}
     }
   }
 
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 125px;
+    color: black;
+    font-family: "droid Sans", sans-serif;
+  }
 
 /* Motorcycle code from https://codepen.io/mhmoodlan/pen/EjJoZr */
 .bike-body{width:250px;height:108px;position:relative;left:-20px;top:3px}
