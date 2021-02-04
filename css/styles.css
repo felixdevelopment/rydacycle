@@ -45,7 +45,7 @@ header{position:relative;overflow:hidden}
     to {
       left: 100%;
       transform: translateX(25%);
-      opacity: 25%;
+      opacity: 75%;
     }
   }
 
