@@ -34,7 +34,7 @@ header{position:relative;overflow:hidden}
 .bike-inner{position: absolute;}
 
 #bikeMotion {
-    animation: 2s ease-in-out infinite alternate swingParent;
+    animation: 3s ease-out 2 swingParent;
   }
   
   @keyframes swingParent {
@@ -44,7 +44,8 @@ header{position:relative;overflow:hidden}
     }
     to {
       left: 100%;
-      transform: translateX(-125%);
+      transform: translateX(25%);
+      opacity: 25%;
     }
   }
 
