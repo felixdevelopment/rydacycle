@@ -56,6 +56,13 @@ header{position:relative;overflow:hidden}
     color: black;
     font-family: "droid Sans", sans-serif;
   }
+  
+  .container > * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
 
 /* Motorcycle code from https://codepen.io/mhmoodlan/pen/EjJoZr */
 .bike-body{width:250px;height:108px;position:relative;left:-20px;top:3px}
