@@ -34,7 +34,7 @@ header{position:relative;overflow:hidden}
 .bike-inner{position: absolute;}
 
 #bikeMotion {
-    animation: 3s ease-out 2 swingParent;
+    animation: 5s ease-out 2 swingParent;
   }
   
   @keyframes swingParent {
@@ -55,8 +55,10 @@ header{position:relative;overflow:hidden}
     height: 125px;
     color: black;
     font-family: "droid Sans", sans-serif;
+    left: 5%;
+    top: 19%;
   }
-  
+
   .container > * {
     padding: 0;
     margin: 0;
