@@ -33,9 +33,7 @@ header{position:relative;overflow:hidden}
     z-index: 999;}
 .bike-inner{position: absolute;}
 
-#parentPendulum {
-    position: relative;
-    background: #ffc300;
+#bikeMotion {
     animation: 2s ease-in-out infinite alternate swingParent;
   }
   
@@ -46,7 +44,7 @@ header{position:relative;overflow:hidden}
     }
     to {
       left: 100%;
-      transform: translateX(-100%);
+      transform: translateX(-125%);
     }
   }
 
