@@ -32,6 +32,25 @@ header{position:relative;overflow:hidden}
 ,rgba(216,192,166,1) 91%,rgba(206,164,130,0.038252801120448154) 100%);
     z-index: 999;}
 .bike-inner{position: absolute;}
+
+#parentPendulum {
+    position: relative;
+    background: #ffc300;
+    animation: 2s ease-in-out infinite alternate swingParent;
+  }
+  
+  @keyframes swingParent {
+    from {
+      transform: translateX(0);
+      left: 0;
+    }
+    to {
+      left: 100%;
+      transform: translateX(-100%);
+    }
+  }
+
+
 /* Motorcycle code from https://codepen.io/mhmoodlan/pen/EjJoZr */
 .bike-body{width:250px;height:108px;position:relative;left:-20px;top:3px}
 .bike-body .seat{width:30px;height:30px;background:radial-gradient(circle at right top,rgba(248,80,50,0) 0%,rgba(241,111,92,0) 50%,rgba(246,41,12,0) 51%,rgba(242,45,19,0) 64%,#434b59 65%,#434b59 71%,#434b59 100%);background-position:center;background-repeat:no-repeat;transform:rotateZ(-40deg);position:absolute;top:64px;left:65px}
